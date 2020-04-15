@@ -22,5 +22,6 @@ public class TodoController {
 		String name=(String) model.get("name");
 		model.put("todos", service.retrieveTodos(name));
 		return "list-todos";
+		//test
 	}
 }
